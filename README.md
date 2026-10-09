@@ -42,3 +42,6 @@ I was unable to make the log file of mysql working i've tired a good ammount of 
 My work is still present in the dockerfile.
 
 And the log for joomla is contained in the installation path of joomla and i wasnt able to moun tthis particular folder in joomla-logs but it is present in joomla install path
+## Configuration
+
+Copier `.env.example` en `.env` et y définir les mots de passe avant `docker-compose up`.
